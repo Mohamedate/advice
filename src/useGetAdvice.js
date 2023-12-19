@@ -12,7 +12,9 @@ export default function useGetAdvice() {
     const getAdvice = async () => {
       try {
         setLoading(true);
-        const res = await fetch("https://api.adviceslip.com/advice");
+        const res = await fetch("https://api.adviceslip.com/advice", {
+          cache: "no-store",
+        });
         const data = await res.json();
         setAdvice(data?.slip);
         setLoading(false);
