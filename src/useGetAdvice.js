@@ -5,8 +5,8 @@ export default function useGetAdvice() {
   const [advice, setAdvice] = useState("");
   const [counter, setCount] = useState(0);
 
-  function handleR() { 
-    setCount(pre => pre + 1)
+  function handleR() {
+    setCount((pre) => pre + 1);
   }
   useEffect(() => {
     const getAdvice = async () => {
