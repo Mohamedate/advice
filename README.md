@@ -37,4 +37,4 @@ Users should be able to:
 ## Author
 
 - My website - [Mohamed Atef](https://atef.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Mohamedate)
+- Frontend Mentor - [@Mohamedate](https://www.frontendmentor.io/profile/Mohamedate)
